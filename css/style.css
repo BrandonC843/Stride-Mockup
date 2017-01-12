@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+}
+#app-container{
+  max-width: 0 auto;
+  margin: 0 auto;
+}
+.header{
+  background-image: url(../images/hero-splash-roommates-fun.jpg);
+  background-size: cover;
+  padding: 200px 0;
+}
+.question {
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  background-color: #B0E6E2;
+  color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.column-container p{
+  background-color:grey;
+  padding: 0;
+  margin-top:0;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 2px;
+  font-size: 20px;
+}
+.cities-container {
+  display: inline-block;
+  width: 25%;
+}
+
+.footer-container,
+.stuff-container {
+  display: inline-block;
+  padding: 5px;
+  background: darkgrey;
+  width:50%;
+}
+.container-more-cities {
+  text-align: center;
+  border: 4px #f55e05 solid;
+  color: #F55E05;
+  font-weight: 5px;
+  width: 75px;
+  font-size: 10px;
+
+}
