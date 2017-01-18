@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
+img {
+  width:100%;
+  display: block;
+}
 body {
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
 }
@@ -9,52 +12,184 @@ body {
   max-width: 0 auto;
   margin: 0 auto;
 }
-.header{
+.navbar-container {
+  display: flex;
+  width:100%;
+  top: 0;
+  bottom:100;
+  border: 1px solid #F55E05;
+  background-color: #F55E05;
+  margin-bottom: -2px;
+}
+.navbar-container a{
+  display:inline;
+  color:#000;
+  padding: 4px 8px;
+}
+  .navbar-container ul{
+  list-style-type: none;
+    padding:0;
+    margin:0;
+    width: 100px;
+    background-color: #f1f1f1;
+  }
+
+.header-container{
   background-image: url(../images/hero-splash-roommates-fun.jpg);
   background-size: cover;
   padding: 200px 0;
-}
-.question {
-  background: #333;
-  color: #fff;
-  text-align: center;
-}
-
-button {
-  padding: 5px;
-  background-color: #B0E6E2;
-  color: white;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.column-container p{
-  background-color:grey;
-  padding: 0;
-  margin-top:0;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 2px;
   font-size: 20px;
+}
+
+.question-container {
+  background: #333;
+  background-size: 75%;
+  color: white;
+  opacity: .7;
+  text-align: center;
+  font-size: 20px;
+
+}
+.form{
+  width: 500;
+  position: relative;
+  left: 400px;
+}
+.search{
+  padding: 15px 100px;
+  margin-left: 400px;
+  background: #FFF;
+  border: 0px solid #fff;
+}
+
+.button{
+  position: relative;
+  padding: 15px 15px;
+  left: -5px;
+  border: 0px solid #00A86B;
+  background-color: teal;
+  color: #fafafa;
+}
+.button:hover {
+  background-color: teal;
+  color: #207;
 }
 .cities-container {
   display: inline-block;
-  width: 25%;
+  width: 12%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: #2C2416;
+  color: white;
+}
+.cities-container p{
+  padding-left: 5px;
+  font-weight: lighter;
 }
 
-.footer-container,
-.stuff-container {
+.column-container{
   display: inline-block;
-  padding: 5px;
-  background: darkgrey;
-  width:50%;
+  width: 100%;
 }
-.container-more-cities {
+.example-container{
+  width:100%;
+  background-color: lightgrey;
+  margin-right: -100px;
+}
+
+.heart-cont i {
+   font-size: 14px;
+   background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -225px;
+    right: -10px;
+    margin-left: 380px;
+}
+
+.left-container {
+  background-color: white;
+  width: 20%;
+  margin-left:250px;
+  margin-top: 30px;
+  border: 1px black solid;
+  font-size: 14px;
+}
+
+.right-container {
+  list-style-type: circle;
+  width: 50%;
+  font-size: 24px;
+  margin-left: 60%;
+  margin-top: -290px;
+  margin-bottom: 300px;
+}
+
+.more-cities-container {
+  margin-left: 400px;
+  margin-bottom: 10px;
+  margin-top: 15px;
   text-align: center;
   border: 4px #f55e05 solid;
   color: #F55E05;
   font-weight: 5px;
   width: 75px;
   font-size: 10px;
+}
+.stuff-container{
+  display: inline-block;
+  width: 33%;
+}
 
+.bottom-container{
+  display: inline-block;
+  padding: 19px;
+  background: #2C2416;
+  width: 100%;
+  color: lightgrey;
+  font-size: 10px;
+}
+
+.bottom-container h1{
+  font-size:14px;
+  color: white;
+}
+.link-container img {
+  display: inline;
+  float:right;
+  width:30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+
+.Question-box{
+  position: fixed;
+  top: 100;
+  bottom: 0;
+color:black;
+  border: 1px solid blue;
+  background: white;
+  width:100px;
+  padding: 15px;
+  margin-right: 30px;
+
+}
+.Question-box h1{
+  color: black;
+  background-color: aqua;
+  margin-left: 0px;
+  padding:0px;
+  width: 100%;
+}
+.Question-box span{
+  color:orange;
 }
