@@ -267,34 +267,48 @@ color: white;
 
 }
 
-.fixed-box{
+.help-box-container{
   position: fixed;
-  top: 100;
   bottom: 0;
-  border: 3px solid #29BBAF;
-  width:200px;
-  height: 100px;
-  padding: 15px;
-
+  padding-top: 25px;
 }
-.fixed-box h2{
-  background-color: #B0E6E2;
-  border: 1px solid #B0E6E2;
-  font-size: 15px;
-  border-left: 30px;
-  border-top: 20px;
-
-}
-.fixed-box span{
-   color: orange;
-}
-.fixed-options i {
-   position: fixed;
-   font-size: large;
+.arrow-image{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   padding-left: 10px;
+   padding-right: 10px;
    color: white;
-   bottom: 0;
-   right: 40;
-   top:90;
-   background-color: #29BBAF;
-   border: solid 2px #29BBAF;
+   background-color: #44C9C9;
+   height: 25px;
+
+}
+.fixed-box-chat{
+ position: relative;
+ border: solid #44C9C9 5px;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 100px;
+}
+
+.questions{
+   background-color: #C5F4F4;
+   margin: 0px;
+   padding: 5px;
+}
+
+.fixed-box-chat img {
+   width: 25%;
+   border-radius: 50%;
+   border: solid black thin;
+   display: inline;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.fixed-box-chat p {
+   display: inline;
+   font-size: 12px;
+}
+.fixed-box-chat span {
+   color: #EFAD34;
 }
